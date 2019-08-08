@@ -38,7 +38,7 @@ function formHandler(e) {
   fetchWeather(query)
     .then(res => rendering(res))
     .catch(error => console.error(error));
-  query = '';
+  // query = '';
 }
 
 function rendering(obj) {
